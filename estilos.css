@@ -8,18 +8,18 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #f5f5f0;
+    color: #f50808;
+    background-color: #f0f1f5;
 }
 
 /* ========== BARRA DE NAVEGACIÓN ========== */
-/* .navbar {
-    background-color: #1a3c4a;
+.navbar {
+    background-color: #95e9b5;
     position: sticky;
     top: 0;
     z-index: 1000;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-} */
+} 
 
 .nav-container {
     max-width: 1200px;
@@ -32,7 +32,7 @@ body {
 }
 
 .logo {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 1.5rem;
     font-weight: bold;
     text-decoration: none;
@@ -46,7 +46,7 @@ body {
 }
 
 .nav-menu li a {
-    color: white;
+    color: rgb(20, 14, 14);
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s;
@@ -60,7 +60,7 @@ body {
 
 /* ========== HERO / ENCABEZADO ========== */
 .hero {
-    background: linear-gradient(135deg, #2c5f6e, #1a3c4a);
+    background: linear-gradient(135deg, #36cf7b, #1a4d25);
     color: white;
     text-align: center;
     padding: 4rem 2rem;
@@ -87,7 +87,7 @@ body {
 .seccion-titulo {
     font-size: 2rem;
     color: #1a3c4a;
-    border-left: 5px solid #ff9900;
+    border-left: 5px solid #308337;
     padding-left: 1rem;
     margin-bottom: 1.5rem;
 }
@@ -95,7 +95,7 @@ body {
 /* ========== ARTÍCULOS ========== */
 .articulo {
     background: white;
-    border-radius: 12px;
+    border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     transition: transform 0.3s, box-shadow 0.3s;
@@ -107,7 +107,7 @@ body {
 }
 
 .articulo-imagen img {
-    width: 30%;
+    width: 100%;
     height: 250px;
     object-fit: cover;
     display: block;
@@ -118,7 +118,7 @@ body {
 }
 
 .articulo-contenido h3 {
-    color: #1a3c4a;
+    color: #1a4a20;
     font-size: 1.5rem;
     margin-bottom: 0.75rem;
 }
@@ -130,7 +130,7 @@ body {
 
 /* ========== PIE DE PÁGINA Y REDES SOCIALES ========== */
 .footer {
-    background-color: #1a3c4a;
+    background-color: #268a4c;
     color: white;
     text-align: center;
     padding: 2rem 1rem;
